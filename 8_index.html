@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{ 
+            background-color: red;
+            height: 800px;
+        }
+        .box{
+            border: 5px solid white;
+            display: inline-block;
+            /* transform:translate(134px, 5px) rotate(25deg); */
+            /* transform-origin: 0; */
+            /* transform: scale(1,2);
+            transform: scalex(8);
+            transform: scaley(8); */
+            /* transform: skew(0deg, 20deg); */
+        }
+        img{
+                /* border:1px solid #ddd; */
+                /* border-radius:10px; */
+                /* padding:5px; */
+                width :146px;
+                transition-property: width;
+                transition-duration: 3s;      
+                transition-timing-function: ease-in;    
+            }
+        /* img:hover{
+            width: 56px; */
+            /* <script>
+            btn.addEventListner("click",()=>{
+                myImage.style.width="546px";
+            }) */
+        /* } */
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+            <img src="Shirley-Setia-HD-pics-modified (1).png">
+            <button id="btn">Nikhil</button>
+        </div>
+    </div>
+
+    
+</body>
+<script>
+    myImage.style.width='146px';
+    btn.addEventListener("click",()=>{
+    
+    
+        if(myImage.style.width==='546px'){
+            myImage.style.width==="146px";
+
+        }
+        else if(myImage.style.width==='146px'){
+            myImage.style.width==="546px";
+        }
+    })
+</script>
+</html>
